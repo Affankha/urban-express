@@ -1,0 +1,15 @@
+/* Add this to your CSS file */
+.custom-section {
+  padding-top: 8%;
+  padding-bottom: 8%;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+@media (max-width: 768px) {
+  .custom-section {
+    height: 1600px; /* or any height you want for mobile */
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}

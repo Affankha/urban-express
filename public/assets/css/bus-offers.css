@@ -1,0 +1,6 @@
+.bus_titles{
+  transition: transform 1200ms ease, opacity 1200ms ease;
+  transform: translateX(-200px);
+  transform: translateX(0);
+  transition-delay: 1500ms;
+}
