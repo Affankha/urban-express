@@ -8,7 +8,7 @@ export default function ContingencyPlans() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contingency Plans">
-        <section style={{ paddingTop: "8%", paddingBottom: "8%", paddingLeft: "50px", paddingRight: "50px", minHeight: "100vh" }}>
+        <section style={{ paddingTop: "8%", paddingLeft: "50px", paddingRight: "50px", minHeight: "100vh" , paddingBottom: "120px" }}>
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Contingency Plans</h2>
           </div>

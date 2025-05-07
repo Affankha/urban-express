@@ -3,6 +3,7 @@
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
 import Banner from "../../components/sections/home1/Banner";
+import { motion } from "framer-motion";
 // import { useState } from "react";
 // import { Autoplay, Navigation, Pagination } from "swiper/modules";
 
@@ -65,6 +66,14 @@ export default function ClientBusOffers() {
             </div>
 
             {data.map((item, index) => (
+               <motion.div
+               key={index}
+               whileHover={{ scale: 1.08 }}
+               initial={{ opacity: 0, y: 40 }}
+               animate={{ opacity: 1, y: 0 }}
+               transition={{ duration: 0.5, delay: index * 0.05 }}
+               className="transition-shadow"
+             >
               <Link href={`/cli_bus_off/${item.ID}`}>
               <div
               className="bus_titles"
@@ -90,6 +99,7 @@ export default function ClientBusOffers() {
                 </div>
               </div>
             </Link>
+          </motion.div>
             ))}
           </div>
         </section><br /><br />
