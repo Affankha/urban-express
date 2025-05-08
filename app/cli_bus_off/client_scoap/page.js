@@ -13,13 +13,7 @@ export default function SchoolScope() {
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Client Scope">
         <section
-          style={{
-            paddingTop: "8%",
-            paddingBottom: "8%",
-            paddingLeft: "50px",
-            paddingRight: "50px",
-            minHeight: "100vh",
-          }}
+           style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px",  }}
         >
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Scoap of Services</h2>
@@ -30,11 +24,12 @@ export default function SchoolScope() {
           </h5>
           <br />
           <br />
-          <h4 style={{ color: "black" }}>
-            <GoSquareFill style={{ color: "#00aab5" }} />
+          <div style={{display: "flex"}}>
+           <div><GoSquareFill style={{ color: "#00aab5", }} /></div>
+          <h4 style={{ color: "black", }}>
             Timely Driver Reporting
-          </h4>
-          <p style={{ paddingLeft: "25px" }}>
+          </h4></div>
+          <p style={{ paddingLeft: "25px",  textAlign:"justify"}}>
             Our service ensures that all drivers report for duty well in advance
             of scheduled pick-ups. We follow a strict protocol to ensure that
             our drivers arrive early at each location, allowing ample time for
@@ -47,10 +42,12 @@ export default function SchoolScope() {
           <br />
           <br />
 
-          <h4 style={{ color: "black" }}>
-            <GoSquareFill style={{ color: "#00aab5" }} />
-            Quality Inspection for Vehicle Cleanliness
-          </h4>
+       
+          <div style={{display: "flex"}}>
+           <div><GoSquareFill style={{ color: "#00aab5", }} /></div>
+          <h4 style={{ color: "black", }}>
+           Quality Inspection for Vehicle Cleanliness
+          </h4></div>
           <p style={{ paddingLeft: "25px" }}>
             We pride ourselves on maintaining a fleet of vehicles that are not
             only luxurious but also impeccably clean. Each vehicle undergoes a
@@ -64,10 +61,11 @@ export default function SchoolScope() {
           </p>
           <br />
 
-          <h4 style={{ color: "black" }}>
-            <GoSquareFill style={{ color: "#00aab5" }} />
-            Driver Uniform and Professionalism
-          </h4>
+          <div style={{display: "flex"}}>
+           <div><GoSquareFill style={{ color: "#00aab5", }} /></div>
+          <h4 style={{ color: "black", }}>
+          Driver Uniform and Professionalism-
+          </h4></div>
           <p style={{ paddingLeft: "25px" }}>
             Our drivers are the face of our service, and we ensure they maintain
             a professional and polished appearance. All of our drivers are
@@ -81,10 +79,12 @@ export default function SchoolScope() {
           </p>
           <br />
 
-          <h4 style={{ color: "black" }}>
-            <GoSquareFill style={{ color: "#00aab5" }} />
-            Meet and Greet Assistance at the Airport
-          </h4>
+          
+          <div style={{display: "flex"}}>
+           <div><GoSquareFill style={{ color: "#00aab5", }} /></div>
+          <h4 style={{ color: "black", }}>
+          Meet and Greet Assistance at the Airport
+          </h4></div>
           <p style={{ paddingLeft: "25px" }}>
             We provide personalized “Meet and Greet” services at airports,
             ensuring that clients are welcomed and assisted right from the
@@ -98,10 +98,12 @@ export default function SchoolScope() {
           </p>
           <br />
 
-          <h4 style={{ color: "black" }}>
-            <GoSquareFill style={{ color: "#00aab5" }} />
-            24/7 Operations Support
-          </h4>
+          
+          <div style={{display: "flex"}}>
+           <div><GoSquareFill style={{ color: "#00aab5", }} /></div>
+          <h4 style={{ color: "black", }}>
+          24/7 Operations Support
+          </h4></div>
           <p style={{ paddingLeft: "25px" }}>
             Our transportation service operates around the clock to provide
             clients with the utmost convenience and peace of mind. Whether it’s
@@ -124,6 +126,7 @@ export default function SchoolScope() {
               width={600}
               height={300}
               className={styles.image}
+              style={{filter: "grayscale(100%)"}}
               />
             <Image
               src="/assets/images/clientbusoffers/scoap2.png"
@@ -131,6 +134,7 @@ export default function SchoolScope() {
               width={600}
               height={300}
               className={styles.image}
+              style={{filter: "grayscale(100%)"}}
               />
           </div >
           </section>

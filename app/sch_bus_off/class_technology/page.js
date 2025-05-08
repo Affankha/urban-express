@@ -22,14 +22,7 @@ export default function BestInClassTechnology() {
       breadcrumbTitle="Best in Class Technology"
     >
       <section
-        style={{
-          paddingTop: "8%",
-          paddingBottom: "8%",
-          paddingLeft: "50px",
-          paddingRight: "50px",
-          minHeight: "100vh",
-          
-        }}
+         style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
       >
         <div style={{ color: "black" }}>
           <h2 style={{ color: "#00aab5" }}>Best in Class Technology</h2>
@@ -126,6 +119,7 @@ export default function BestInClassTechnology() {
               
               // margin: "auto",
               // marginTop: "40px",
+              filter: "grayscale(100%)"
             }}
           />
           ))

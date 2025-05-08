@@ -3,6 +3,7 @@ import Menu from "../Menu";
 import MobileMenu from "../MobileMenu";
 import { FiPhoneCall } from "react-icons/fi";
 import { FaLinkedin } from "react-icons/fa6";
+import Image from "next/image";
 
 export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
   return (
@@ -65,7 +66,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
               <div className="main-menu__left">
                 <div className="main-menu__logo">
                   <Link href="/">
-                    <img src="assets/images/resources/logo-1.png" alt="" />
+                    <Image src="/assets/images/resources/logo-1.png" alt="logo" width={100} height={40}/>
                   </Link>
                 </div>
                 <div className="main-menu__main-menu-box">
@@ -111,7 +112,7 @@ export default function Header1({ scroll, isMobileMenu, handleMobileMenu }) {
                 <div className="main-menu__left">
                   <div className="main-menu__logo">
                     <Link href="/">
-                      <img src="assets/images/resources/logo-1.png" alt="" />
+                      <Image src="/assets/images/resources/logo-1.png" alt="logo-1" width={100} height={40} />
                     </Link>
                   </div>
                   <div className="main-menu__main-menu-box">

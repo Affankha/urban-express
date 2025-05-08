@@ -10,12 +10,12 @@ import { motion } from "framer-motion";
 export default function ClientBusOffers() {
   const data = [
     {
-      school_scoap_service: "Client scope of services",
+      school_scoap_service: "Client Scope of Services",
       des: "Our comprehensive service ofering includes Timely Driver Reporting , Quality Inspection for Vehicle Cleanliness and 24/7 Operations Support",
       ID: "client_scoap",
     },
     {
-      operation_plan: "operation plan and safety",
+      operation_plan: "Operation Plan and Safety",
       des: "Safety Standards The Operational Plan outlines the standards and requirements, including driver qualifications, fleet capacity, routine and periodic maintenance protoco",
       ID: "clie_plan_safety",
     },
@@ -57,12 +57,13 @@ export default function ClientBusOffers() {
       <Layout
         headerStyle={1}
         footerStyle={1}
-        breadcrumbTitle="Client Bus Offers"
+        breadcrumbTitle="Client Bus "
       >
-        <section style={{ paddingTop: "8%", paddingBottom: "8%", minHeight: "100vh", paddingBottom: "130px" }} >
+        <section  style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", marginLeft: "auto",marginRight: "auto", }}>
+
           <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "20px" }}>
             <div>
-              <h3 className="">Our Client Bus Service Offers</h3>
+              <h3 className="">Our Client Bus Services</h3>
             </div>
 
             {data.map((item, index) => (
@@ -85,7 +86,7 @@ export default function ClientBusOffers() {
                   justifyContent: "space-between",
                   maxWidth: "1200px",
                   margin: "0 auto",
-                  padding: "20px",
+                  paddingTop: "20px",
                   
                 }}>
 

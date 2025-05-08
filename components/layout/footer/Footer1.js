@@ -1,11 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
 export default function Footer1() {
   return (
     <>
       {/*Site Footer Start*/}
       <footer className="site-footer">
         <div className="site-footer__shape-1 float-bob-x">
-          <img src="assets/images/shapes/footer-shape-1.png" alt="" />
+          <img src="/assets/images/shapes/footer-shape-1.png" alt="shape1" />
         </div>
         {/* <div className="site-footer__shape-2 float-bob-y">
                 <img src="assets/images/shapes/footer-shape-2.png" alt=""/>
@@ -23,9 +24,10 @@ export default function Footer1() {
                   <div className="footer-widget__column footer-widget__about">
                     <div className="footer-widget__logo bg-white p-4 rounded-3">
                       <Link href="/">
-                        <img
-                          src="assets/images/resources/logo-1.png"
+                        <Image
+                          src="/assets/images/resources/logo-1.png"
                           alt="Logo"
+                          width={70} height={30}
                         />
                       </Link>
                     </div>
@@ -60,6 +62,12 @@ export default function Footer1() {
                       </li>
                       <li>
                         <Link href="/about-us/">About Us</Link>
+                      </li>
+                      <li>
+                        <Link href="/sch_bus_off/">School Bus</Link>
+                      </li>
+                      <li>
+                        <Link href="/cli_bus_off/">Client Bus</Link>
                       </li>
                       <li>
                         <Link href="/our-services">Our Services</Link>

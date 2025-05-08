@@ -1,12 +1,16 @@
 import Link from "next/link"
 
-export default function Breadcrumb({ breadcrumbTitle }) {
+export default function Breadcrumb({breadcrumbTitle}) {
+    // const  breadcrumbTitle =[
+    //     {label: "schoo-bus-offers", href: "/schoo-bus-offers/", active: false},
+    //     {label: "schoo-bus-offers", href: "/schoo-bus-offers/", active: true},
+    // ]
     return (
         <>
 
         {/*Page Header Start*/}
         <section className="page-header">
-            <div className="page-header__bg" style={{ backgroundImage: 'url(assets/images/backgrounds/bg-img.jpg)' }} >
+            <div className="page-header__bg" style={{ backgroundImage: 'url(/assets/images/backgrounds/bg-img.jpg)' }} >
             </div>
             <div className="container">
                 <div className="page-header__inner">

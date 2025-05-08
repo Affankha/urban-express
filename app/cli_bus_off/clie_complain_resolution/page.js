@@ -12,14 +12,7 @@ export default function ComplaintResolution() {
       breadcrumbTitle="Complaint Resolution & Escalation Matrix"
     >
       <section
-        style={{
-          paddingTop: "8%",
-          paddingBottom: "8%",
-          paddingLeft: "50px",
-          paddingRight: "50px",
-          minHeight: "100vh",
-          paddingBottom: "120px",
-        }}
+        style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", marginBottom:"5%" }}
       >
         <div style={{ color: "black" }}>
           <h2 style={{ color: "#00aab5" }}>
@@ -33,7 +26,7 @@ export default function ComplaintResolution() {
             alt="contigency plan img"
             width={800}
             height={400}
-            style={{ maxWidth: "100%", width: "100%" }}
+            style={{ maxWidth: "100%", width: "100%",filter: "grayscale(100%)" }}
           />
         </div>
         <br />

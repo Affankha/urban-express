@@ -58,8 +58,9 @@ export default function RobustReportingFramework() {
 
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Robust Reporting Framework">
-      <section style={{ padding: "8% 5%", backgroundColor: "#f9f9f9", minHeight: "100vh", paddingBottom: "120px" }}>
+      <section  style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px",  }}>
         <div style={{ marginBottom: "30px" }}>
+
           <h2 style={{ color: "#00aab5", fontSize: "2rem", marginBottom: "10px" }}>
             Robust Reporting Framework
           </h2>
@@ -81,6 +82,7 @@ export default function RobustReportingFramework() {
       
       
       objectFit: "cover",
+      filter: "grayscale(100%)" 
       
     }}
   />

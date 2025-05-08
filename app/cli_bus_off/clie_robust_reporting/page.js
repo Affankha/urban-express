@@ -58,7 +58,7 @@ export default function ClieRobustReporting() {
 
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Robust Reporting Framework">
-      <section style={{ padding: "8% 5%", backgroundColor: "#f9f9f9", minHeight: "100vh" }}>
+      <section style={{ paddingTop: "5%", paddingBottom: "120px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
         <div style={{ marginBottom: "30px" }}>
           <h2 style={{ color: "#00aab5", fontSize: "2rem", marginBottom: "10px" }}>
             Robust Reporting Framework
@@ -81,6 +81,7 @@ export default function ClieRobustReporting() {
       
       
       objectFit: "cover",
+      filter: "grayscale(100%)",
       
     }}
   />

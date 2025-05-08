@@ -7,13 +7,13 @@ import { GoSquareFill } from "react-icons/go";
 export default function ComplaintResolution() {
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Complaint Resolution & Escalation Matrix">
-      <section style={{ paddingTop: "8%", paddingBottom: "8%", paddingLeft: "50px", paddingRight: "50px", minHeight: "100vh", paddingBottom: "100px" }}>
+      <section  style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
 
         <div style={{ color: "black" }}>
           <h2 style={{ color: "#00aab5" }}>Complaint Resolution & Escalation Matrix</h2><br />
         </div>
           <div>
-            <Image src="/assets/images/schoolbusoffers/complain.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%",width: "100%"}}/>
+            <Image src="/assets/images/schoolbusoffers/complain.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%",width: "100%",filter: "grayscale(100%)" }}/>
           </div><br />
 
 

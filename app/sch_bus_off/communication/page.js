@@ -21,12 +21,7 @@ export default function CommunicationPage() {
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Communication">
       <section
-        style={{
-          padding: "8% 5%",
-          backgroundColor: "#f9f9f9",
-          minHeight: "100vh",
-          paddingBottom: "120px",
-        }}
+         style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
       >
         <div style={{ marginBottom: "30px" }}>
           <h2
@@ -52,7 +47,7 @@ export default function CommunicationPage() {
             alt="contigency plan img"
             width={800}
             height={400}
-            style={{ maxWidth: "100%", height: "auto", width: "100%" }}
+            style={{ maxWidth: "100%", height: "auto", width: "100%",filter: "grayscale(100%)" }}
           />
         </div>
         <br />
@@ -209,7 +204,7 @@ export default function CommunicationPage() {
             </div>
           ))}
         </div>
-      </section>
+      </section><br />
     </Layout>
   );
 }

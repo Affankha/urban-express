@@ -17,15 +17,7 @@ export default function BestPractices() {
         breadcrumbTitle="Operational Best Practices"
       >
         <section
-          style={{
-            paddingTop: "8%",
-            paddingBottom: "8%",
-            paddingLeft: "50px",
-            paddingRight: "50px",
-            minHeight: "100vh",
-            paddingBottom: "100px",
-            // minWidth: "500px"
-          }}
+           style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
         >
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Operational Best Practices</h2>
@@ -104,6 +96,7 @@ export default function BestPractices() {
                   maxWidth: "600px",
                   height: "auto",
                   // paddingBottom: "20px",
+                  filter: "grayscale(100%)"
                 }}
               />
             </div>
@@ -193,6 +186,7 @@ export default function BestPractices() {
                   width: "100%",
                   maxWidth: "600px",
                   height: "auto",
+                  filter: "grayscale(100%)"
                 }}
               />
             </div>

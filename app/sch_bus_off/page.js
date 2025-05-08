@@ -15,13 +15,13 @@ export default function SchoolBusOffers() {
       ID: "school_scope",
     },
     {
-      operation_plan: "operation plan and safety",
+      operation_plan: "Operation plan and safety",
       des: "Safety Standards The Operational Plan outlines the standards and requirements, including driver qualifications, fleet capacity, routine and periodic maintenance protoco",
       ID: "plan_and_safety",
     },
 
     {
-      operation_plan: "operational Best Practices",
+      operation_plan: "Operational Best Practices",
       des: "Urban Express takes full responsibility for managing student-related activities to ensure a seamless and eficient transportation experience. ",
       ID: "best_practices",
     },
@@ -57,7 +57,7 @@ export default function SchoolBusOffers() {
       ID: "service_quality",
     },
     {
-      servcie_qualit: "comunication",
+      servcie_qualit: "Comunication",
       des: "We understand that efective communication is the cornerstone of a successful partnership between parents, schools, and our transport services. In recognizing the importance of keeping all stakeholders informed and connected",
       ID: "communication",
     },
@@ -77,16 +77,16 @@ export default function SchoolBusOffers() {
       <Layout
         headerStyle={1}
         footerStyle={1}
-        breadcrumbTitle="School Bus Offers"
+        breadcrumbTitle="School Bus"
       >
         <section
-          style={{ paddingTop: "8%", paddingBottom: "8%", minHeight: "100vh" }}
+          style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", marginLeft: "auto",marginRight: "auto",}}
         >
           <div
             style={{ maxWidth: "1200px", margin: "0 auto", padding: "20px" }}
           >
             <div>
-              <h3 className="">Our School Bus Service Offers</h3>
+              <h3 className="">Our School Bus Services</h3>
             </div>
 
             {data.map((item, index) => (
@@ -109,7 +109,7 @@ export default function SchoolBusOffers() {
                       justifyContent: "space-between",
                       maxWidth: "1200px",
                       margin: "0 auto",
-                      padding: "20px",
+                      paddingTop: "20px",
                     }}
                   >
                     <div

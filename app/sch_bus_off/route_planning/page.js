@@ -12,13 +12,7 @@ export default function RoutePlanning() {
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Route Planning" >
         <section
-          style={{
-            paddingTop: "8%",
-            paddingBottom: "8%",
-            paddingLeft: "50px",
-            paddingRight: "50px",
-            
-          }}
+           style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
           
         >
           <div style={{ color: "black" }}>
@@ -56,7 +50,7 @@ export default function RoutePlanning() {
           </div>
         
         <div>
-          <Image src="/assets/images/schoolbusoffers/1111.jpg" alt="route_planing_img" width={500} height={300}/>
+          <Image src="/assets/images/schoolbusoffers/1111.jpg" alt="route_planing_img" width={500} height={300} style={{filter: "grayscale(100%)"}}/>
         </div><br />
         </div><br /><br />
         </section>

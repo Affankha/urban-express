@@ -7,12 +7,7 @@ export default function TrainingFramework() {
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Training Framework">
       <section
-        style={{
-          padding: "8% 5%",
-          backgroundColor: "#f9f9f9",
-          minHeight: "100vh",
-          paddingBottom: "100px",
-        }}
+       style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
       >
         <div style={{ marginBottom: "30px" }}>
           <h2 style={{ color: "#00aab5", fontSize: "2rem", marginBottom: "10px" }}>

@@ -8,7 +8,7 @@ export default function ClientScope() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Plan & Safety">
-        <section className={styles.section} style={{minHeight: "100vh"}}>
+        <section className={styles.section}  style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>
               Operation plan and safety standards
@@ -47,6 +47,7 @@ export default function ClientScope() {
               width={600}
               height={300}
               className={styles.image}
+              style={{filter: "grayscale(100%)"}}
             />
             <Image
               src="/assets/images/clientbusoffers/plan_safety2.jpg"
@@ -54,6 +55,7 @@ export default function ClientScope() {
               width={600}
               height={300}
               className={styles.image}
+              style={{filter: "grayscale(100%)"}}
             />
           </div >
         </section>

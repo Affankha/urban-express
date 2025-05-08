@@ -19,11 +19,11 @@ export default function Menu() {
                    
                 </li>
                 <li className="">
-                    <Link href="/sch_bus_off/">School Bus Offers</Link>
+                    <Link href="/sch_bus_off/">School Bus </Link>
                    
                 </li>
                 <li className="">
-                    <Link href="/cli_bus_off/">Client Bus Offers</Link>
+                    <Link href="/cli_bus_off/">Client Bus</Link>
                    
                 </li>
                 <li className="">

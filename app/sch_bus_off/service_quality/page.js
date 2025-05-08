@@ -8,13 +8,15 @@ export default function ServiceQualityPolicy() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service Quality Policy">
-        <section style={{ paddingTop: "8%", paddingBottom: "8%", paddingLeft: "50px", paddingRight: "50px", minHeight: "100vh", paddingBottom: "100px" }}>
+        <section  style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
+
+
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Service Quality Policy</h2>
           </div><br />
 
           <div>
-                      <Image src="/assets/images/schoolbusoffers/service_quality.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%", height: "auto", width: "100%"}}/>
+                      <Image src="/assets/images/schoolbusoffers/service_quality.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%", height: "auto", width: "100%",filter: "grayscale(100%)",}}/>
                     </div><br />
 
           <h5 style={{ color: "black" }}><GoSquareFill style={{ color: "#00aab5" }} />Commitment to High Standards</h5>

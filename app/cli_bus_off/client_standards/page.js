@@ -8,14 +8,7 @@ export default function ClientStandards() {
   return (
     <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Vehicle & Driver Standards">
       <section
-        style={{
-          paddingTop: "8%",
-          paddingBottom: "8%",
-          paddingLeft: "50px",
-          paddingRight: "50px",
-          minHeight: "100vh",
-          color: "black",
-        }}
+      style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}
       >
         <h2 style={{ color: "#00aab5" }}>Vehicle Standards</h2>
         <p>
@@ -32,7 +25,7 @@ export default function ClientStandards() {
         </ul><br />
 
         <div style={{justifyContent: "center", display: "flex"}}>
-          <Image src="/assets/images/clientbusoffers/vehicle_standards.png" alt="Vehicle standards" width="400" height="200" style={{   maxWidth: "100%", height: "auto"}}/>
+          <Image src="/assets/images/clientbusoffers/vehicle_standards.png" alt="Vehicle standards" width="400" height="200" style={{   maxWidth: "100%", height: "auto",filter: "grayscale(100%)"}}/>
         </div>
 
         <br />
@@ -56,7 +49,7 @@ export default function ClientStandards() {
         </ul><br />
         
         <div style={{justifyContent: "center", display: "flex",  }}>
-          <Image src="/assets/images/clientbusoffers/driver_standards.png" alt="Vehicle standards" width="800" height="400" style={{ paddingBottom: "50px", maxWidth: "100%", height: "auto", }}/>
+          <Image src="/assets/images/clientbusoffers/driver_standards.png" alt="Vehicle standards" width="800" height="400" style={{ paddingBottom: "50px", maxWidth: "100%", height: "auto",filter: "grayscale(100%)", }}/>
         </div>
       </section><br />
     </Layout>

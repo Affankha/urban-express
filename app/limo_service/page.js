@@ -43,6 +43,7 @@ export default function BusOperation() {
                       // borderRadius: "10px",
                       objectFit: "cover",
                       boxShadow: "0px 4px 12px rgba(0,0,0,0.2)",
+                      filter: "grayscale(100%)",
                     }}
                   />
                 </div>

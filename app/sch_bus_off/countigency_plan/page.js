@@ -8,7 +8,8 @@ export default function ContingencyPlans() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contingency Plans">
-        <section style={{ paddingTop: "8%", paddingLeft: "50px", paddingRight: "50px", minHeight: "100vh" , paddingBottom: "120px" }}>
+        <section  style={{ paddingTop: "5%", paddingBottom: "8%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
+
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Contingency Plans</h2>
           </div>
@@ -16,7 +17,7 @@ export default function ContingencyPlans() {
           <p style={{ color: "black" }}>In the event of emergencies, the company has established protocols for immediate response and coordination with relevant authorities to ensure the safety and well-being of students. These protocols include clear communication channels, emergency contact information, and predefined action plans to address various emergency scenarios.</p><br />
 
           <div>
-            <Image src="/assets/images/schoolbusoffers/contigency_plan.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%", height: "auto", width: "100%"}}/>
+            <Image src="/assets/images/schoolbusoffers/contigency_plan.jpg" alt="contigency plan img" width={800} height={400} style={{maxWidth: "100%", height: "auto", width: "100%",filter: "grayscale(100%)",}}/>
           </div><br />
 
           <h4 style={{ color: "black" }}>
@@ -67,7 +68,7 @@ export default function ContingencyPlans() {
           <p>
             In cases of driver no-shows, the company has established clear escalation processes and consequences for non-compliance with behavior standards, grooming, and hygiene standards. These measures are designed to ensure accountability and reliability in driver services, with the aim of minimizing the impact of driver no-shows on scheduled trips.
           </p>
-        </section>
+        </section><br />
       </Layout>
     </>
   );
