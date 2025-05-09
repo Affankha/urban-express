@@ -7,8 +7,8 @@ import Image from "next/image";
 export default function ClientServiceQualityPolicy() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service Quality Policy">
-        <section style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Service Quality  Policy">
+        <section style={{ paddingTop: "5%", paddingBottom: "120px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Service Quality Policy</h2>
           </div><br />

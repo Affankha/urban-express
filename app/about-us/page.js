@@ -55,14 +55,7 @@ export default function About() {
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="About Us">
         <section style={{ paddingTop: "8%", paddingBottom: "8%" }}>
           <div style={{ maxWidth: "1200px", margin: "0 auto", padding: "20px",  }}>
-            {/* Top Image */}
-            <div style={{ textAlign: "center", marginBottom: "40px" }}>
-              <img
-                src="assets/images/resources/certificate.jpg"
-                alt="Certificate"
-                style={{ width: "100%", maxWidth: "600px", height: "auto", borderRadius: "10px" }}
-              />
-            </div>
+           
 
             {/* Content Section */}
             <div style={{ textAlign: "left" }}>
@@ -88,6 +81,14 @@ export default function About() {
                   <li style={{ marginBottom: "10px" }}>School Bus Services</li>
                 </ul>
               </div>
+            </div>
+             {/* Top Image */}
+            <div style={{ textAlign: "center", marginBottom: "40px" }}>
+              <img
+                src="assets/images/resources/certificate.jpg"
+                alt="Certificate"
+                style={{ width: "100%", maxWidth: "600px", height: "auto", borderRadius: "10px" }}
+              />
             </div>
           </div>
         </section>

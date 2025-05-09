@@ -7,7 +7,7 @@ import styles from "./plan_and_safety.module.css"; // External CSS for responsiv
 export default function SchoolScope() {
   return (
     <>
-      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Plan & Safety">
+      <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Operation Plan & Safety">
         <section className={styles.section}    style={{ paddingTop: "5%", paddingBottom: "5%", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
 
           <div style={{ color: "black" }}>

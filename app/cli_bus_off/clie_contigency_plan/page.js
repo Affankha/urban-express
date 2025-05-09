@@ -8,7 +8,8 @@ export default function CLientContingencyPlans() {
   return (
     <>
       <Layout headerStyle={1} footerStyle={1} breadcrumbTitle="Contingency Plans">
-        <section style={{ paddingTop: "5%", paddingBottom: "100px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
+        <section style={{ paddingTop: "5%", paddingBottom: "120px", minHeight: "100vh" , marginLeft: "10%", marginRight: "10%", paddingLeft: "15px", paddingRight: "15px", }}>
+
           <div style={{ color: "black" }}>
             <h2 style={{ color: "#00aab5" }}>Contingency Plans</h2>
           </div>
@@ -60,7 +61,7 @@ export default function CLientContingencyPlans() {
           <p>
             In cases of driver no-shows, the company has established clear escalation processes and consequences for non-compliance with behavior standards, grooming, and hygiene standards. These measures are designed to ensure accountability and reliability in driver services, with the aim of minimizing the impact of driver no-shows on scheduled trips.
           </p>
-        </section>
+        </section><br />
       </Layout>
     </>
   );

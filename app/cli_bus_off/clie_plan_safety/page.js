@@ -38,7 +38,7 @@ export default function ClientScope() {
             <br />
             Our proposed plan also highlights the significance of adherence to
             time schedules.
-          </p>
+          </p><br />
 
           <div className={styles.imageContainer} style={{paddingBottom: "100px"}}>
             <Image

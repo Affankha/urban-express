@@ -113,7 +113,7 @@ export default function BestInClassTechnology() {
             key={index}
             src={`/assets/images/schoolbusoffers/${item.imgname}`}
             alt={item}
-            width={400}
+            width={300}
             height={200}
             style={{
               
